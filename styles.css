@@ -175,6 +175,7 @@ p {
 
 .price {
     font-size: 1.3rem;
+    margin-bottom: 0;
 }
 
 .description {
@@ -182,4 +183,7 @@ p {
     font-weight: lighter;
     padding: 1em;
     font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
+

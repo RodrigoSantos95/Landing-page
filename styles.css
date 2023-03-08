@@ -140,3 +140,8 @@ p {
     margin-bottom: 5em;
 }
 
+.square-left {
+    border-color: #000;
+    border-style: solid;
+    
+}

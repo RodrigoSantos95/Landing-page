@@ -188,12 +188,17 @@ p {
 }
 
 .square-btn {
+    font-family: 'Playfair Display', serif;
     border: none;
     padding: 0.5rem;
-    background-color: rgb(196, 128, 39);  
+    background-color: rgb(196, 128, 39);
+    color: rgb(105, 55, 21);
 }
 
 .square-btn:hover {
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
     background-color: rgb(105, 55, 21);
-    
+    transition: 0.5s;
+    color: rgb(224, 215, 204);
 }

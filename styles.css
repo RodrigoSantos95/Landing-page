@@ -165,3 +165,10 @@ p {
     width: 100vw;
     border-width: thin;
 }
+
+.description {
+    text-align: justify;
+    font-weight: lighter;
+    padding: 1em;
+    font-size: 0.9rem;
+}

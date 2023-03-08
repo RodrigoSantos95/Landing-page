@@ -131,3 +131,8 @@ p {
     align-items: center;
 }
 
+#pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

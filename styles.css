@@ -5,6 +5,7 @@ body {
 
 header {
     position: fixed;
+    background-color: rgb(224, 215, 204);
     top: 0;
     left: 0;
     min-height: 75px;

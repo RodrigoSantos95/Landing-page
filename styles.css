@@ -1,3 +1,7 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -8,7 +12,7 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    background-color: bisque;
+    background-color: rgb(224, 215, 204);
 }
 
 .logo {
@@ -26,14 +30,21 @@ header {
     margin-left: 20px;
 }
 
-li {
-    list-style-type: none;
-}
-
 nav > ul {
     width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
+.nav-link {
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+li > a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}

@@ -124,3 +124,9 @@ h2 {
 p {
     margin-top: 0;
 }
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

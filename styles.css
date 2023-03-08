@@ -1,5 +1,6 @@
 body {
     font-family: 'Playfair Display', serif;
+    background-color: rgb(224, 215, 204);
 }
 
 header {
@@ -12,7 +13,6 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    background-color: rgb(224, 215, 204);
 }
 
 .logo {
@@ -49,3 +49,36 @@ li > a {
     color: #000;
 }
 
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+#email {
+    width: 30vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+#submit {
+    padding: 15px 20px 15px 20px;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    background-color: rgb(231, 189, 134);
+    color: rgb(105, 55, 21);
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgb(196, 128, 39);
+    transition: 0.5s;
+    color: rgb(224, 215, 204);
+}

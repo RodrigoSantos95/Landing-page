@@ -145,6 +145,7 @@ p {
     border-style: solid;
     height: 50vh;
     width: 100vw;
+    border-width: thin;
 }
 
 .square-middle {
@@ -154,6 +155,7 @@ p {
     margin-right: 2em;
     height: 50vh;
     width: 100vw;
+    border-width: thin;
 }
 
 .square-right {
@@ -161,4 +163,5 @@ p {
     border-style: solid;
     height: 50vh;
     width: 100vw;
+    border-width: thin;
 }

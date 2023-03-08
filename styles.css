@@ -229,4 +229,53 @@ footer {
     .nav-link {
         font-size: 1.2em;
     }
+    
+    #email {
+        width: 70vw;
+        height: 4vh;
+    }
+    
+    #features {
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+    }
+    
+    .desc-img {
+        height: 8vh;
+    }
+    
+    .descp {
+        margin-left: 5rem;
+        font-size: 1em;
+    }
+
+    #pricing {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .square-left {
+        height: 45vh;
+        width: 70vw;
+        margin-bottom: 1em;
+    }
+    
+    .square-middle {
+        height: 45vh;
+        width: 70vw;
+    }
+    
+    .square-right {
+        height: 45vh;
+        width: 70vw;
+        margin-top: 1em;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }    
 }
